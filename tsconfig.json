@@ -4,6 +4,10 @@
   "compileOnSave": false,
   "compilerOptions": {
     "strict": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "useDefineForClassFields": false,
+    "types": ["node"],
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
@@ -12,8 +16,7 @@
     "isolatedModules": true,
     "experimentalDecorators": true,
     "importHelpers": true,
-    "target": "ES2022",
-    "module": "preserve"
+    "target": "ES2022"    
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
