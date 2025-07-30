@@ -3,20 +3,15 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "strict": true,
-    "module": "esnext",
     "moduleResolution": "node",
-    "useDefineForClassFields": false,
+    "target": "es2022",
+    "module": "esnext",
     "types": ["node"],
-    "noImplicitOverride": true,
-    "noPropertyAccessFromIndexSignature": true,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
-    "skipLibCheck": true,
-    "isolatedModules": true,
-    "experimentalDecorators": true,
-    "importHelpers": true,
-    "target": "ES2022"    
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "strict": true, // optional but helps catch missing types
+    "skipLibCheck": true, // optional to skip .d.ts errors
+    "forceConsistentCasingInFileNames": true
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,

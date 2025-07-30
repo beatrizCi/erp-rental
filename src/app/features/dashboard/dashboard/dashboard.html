@@ -1,0 +1,33 @@
+<div class="dashboard-container p-6">
+  <!-- Hero Section with Video -->
+  <section class="hero-video max-w-10xl mx-auto mb-8">
+    <div class="relative w-full h-90 rounded-xl overflow-hidden">
+      <video
+        src="/assets/icons/erp-demo.mp4"
+        autoplay
+        muted
+        loop
+        playsinline
+        preload="auto"
+        volume="0"
+        class="w-full h-full object-cover rounded-xl"
+        (loadeddata)="onVideoLoaded($event)"
+        (ended)="onVideoEnded($event)"
+        (pause)="onVideoLoaded($event)"
+        #videoElement
+      ></video>
+      <div class="absolute inset-0 hero-overlay flex items-center justify-center">
+        <h2 class="text-white text-5xl font-display font-bold text-center tracking-tight">Your ERP, Simplified</h2>
+      </div>
+    </div>
+  </section>
+
+  <!-- Module Cards Grid -->
+  <div class="module-grid">
+    <app-card title="Inventory" iconPath="/assets/icons/inventory.svg" link="/inventory" />
+    <app-card title="CRM" iconPath="/assets/icons/crm.jpg" link="/crm" />
+    <app-card title="Finance" iconPath="/assets/icons/finance.svg" link="/finance" />
+    <app-card title="HR" iconPath="/assets/icons/HR.svg" link="/hr" />
+    <app-card title="Reports" iconPath="/assets/icons/reports.svg" link="/reports" />
+  </div>
+</div>

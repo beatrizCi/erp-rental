@@ -1,0 +1,57 @@
+<div class="crm-container p-6">
+  <!-- Hero Section with Video -->
+  <section class="hero-video max-w-10xl mx-auto mb-8">
+    <div class="relative w-full h-90 rounded-xl overflow-hidden">
+      <video
+        src="/assets/icons/erp-demo.mp4"
+        autoplay
+        muted
+        loop
+        playsinline
+        preload="auto"
+        volume="0"
+        class="w-full h-full object-cover rounded-xl"
+        #videoElement
+      ></video>
+      <div class="absolute inset-0 hero-overlay flex items-center justify-center">
+        <h2 class="text-white text-5xl font-display font-bold text-center tracking-tight">Retail CRM, Simplified</h2>
+      </div>
+    </div>
+  </section>
+
+  <!-- Retail CRM Modules Grid -->
+  <div class="module-grid">
+    <app-card title="Customers" iconPath="/assets/icons/customers.svg" link="/customers" />
+    <app-card title="Orders" iconPath="/assets/icons/orders.svg" link="/orders" />
+    <app-card title="Products" iconPath="/assets/icons/products.svg" link="/products" />
+    <app-card title="Analytics" iconPath="/assets/icons/analytics.svg" link="/analytics" />
+    <app-card title="Reports" iconPath="/assets/icons/reports.svg" link="/reports" />
+  </div>
+
+  <!-- Quick Stats Section -->
+  <div class="stats-grid mt-8 max-w-6xl mx-auto">
+    <div class="stat-card bg-white/80 backdrop-blur-md p-6 rounded-2xl shadow-lg">
+      <h3 class="text-2xl font-display font-bold text-gray-800">Total Customers</h3>
+      <p class="text-4xl font-display font-bold text-blue-600">1,247</p>
+      <p class="text-sm font-body text-gray-600">+12% this month</p>
+    </div>
+    
+    <div class="stat-card bg-white/80 backdrop-blur-md p-6 rounded-2xl shadow-lg">
+      <h3 class="text-2xl font-display font-bold text-gray-800">Active Orders</h3>
+      <p class="text-4xl font-display font-bold text-green-600">89</p>
+      <p class="text-sm font-body text-gray-600">Processing</p>
+    </div>
+    
+    <div class="stat-card bg-white/80 backdrop-blur-md p-6 rounded-2xl shadow-lg">
+      <h3 class="text-2xl font-display font-bold text-gray-800">Revenue</h3>
+      <p class="text-4xl font-display font-bold text-purple-600">$45.2K</p>
+      <p class="text-sm font-body text-gray-600">This month</p>
+    </div>
+    
+    <div class="stat-card bg-white/80 backdrop-blur-md p-6 rounded-2xl shadow-lg">
+      <h3 class="text-2xl font-display font-bold text-gray-800">Products</h3>
+      <p class="text-4xl font-display font-bold text-orange-600">324</p>
+      <p class="text-sm font-body text-gray-600">In stock</p>
+    </div>
+  </div>
+</div> 

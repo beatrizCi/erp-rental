@@ -1,1 +1,31 @@
-<p>inventory works!</p>
+<div class="p-6 bg-white rounded-2xl shadow-md">
+  <div class="flex justify-between items-center mb-4">
+    <h2 class="text-xl font-semibold text-blue-700">Inventory</h2>
+    <button class="bg-blue-600 text-white px-4 py-2 rounded-xl hover:bg-blue-700">+ Add Product</button>
+  </div>
+
+  <table class="min-w-full text-sm text-left text-gray-700">
+    <thead>
+      <tr class="border-b font-semibold">
+        <th class="py-2">Product</th>
+        <th>SKU</th>
+        <th>Stock</th>
+        <th>Price</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="border-b hover:bg-gray-50">
+        <td class="py-2">Blue T-Shirt</td>
+        <td>SKU12345</td>
+        <td>52</td>
+        <td>$19.99</td>
+        <td>
+          <button class="text-blue-600 hover:underline">Edit</button>
+        </td>
+      </tr>
+      <!-- Repeat for more items -->
+    </tbody>
+  </table>
+</div>
+
