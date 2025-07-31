@@ -1,4 +1,9 @@
-# ErpRetail
+# ErpRetail``
+
+
+
+
+https://github.com/user-attachments/assets/7df0dcb6-e076-47bb-99eb-884d9da6a373
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.2.0-next.1.
 
